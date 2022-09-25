@@ -36,8 +36,8 @@ class AuthController extends ChangeNotifier {
   bool isLoading = false;
   LoginModel? loginModel;
   double loginWidth = 350;
-  AuthService authService =  AuthService();
-  DatabaseMethods databaseMethods =  DatabaseMethods();
+ // AuthService authService =  AuthService();
+ // DatabaseMethods databaseMethods =  DatabaseMethods();
   TextEditingController timeinput = TextEditingController();
   TextEditingController username = TextEditingController();
   TextEditingController fullName = TextEditingController();
@@ -144,7 +144,7 @@ class AuthController extends ChangeNotifier {
       SharedPref()
           .setString(key: "user_id", value: res.data['user'].toString());
       notifyListeners();
-      firebaseSignUp();
+      //firebaseSignUp();
       return res;
     } catch (e) {
       print("jndsdxl$e");
@@ -820,35 +820,35 @@ Future<bool>hideProfile(context,days)async{
       return false;
     }
   }
-  firebaseSignUp() async {
-    await authService.signUpWithEmailAndPassword(
-        email.text,
-        password.text).then((result){
-      if(result != null){
-
-        Map<String,String> userDataMap = {
-          "userName" : fullName.text,
-          "userEmail" : email.text
-        };
-
-        databaseMethods.addUserInfo(userDataMap);
-
-  }
-});
-        }
-  firebaseLogin(context,username,pass) async {
-    print("knreknlkn}");
-    await authService.signInWithEmailAndPassword(
-        username,
-        pass).then((result){
-print("knreknlkn${result}");
-      // if(result != null){
-      //
-      //  SharedPref().setString(key: "firebaseId",value: result.)
-      //
-      // }
-    });
-  }
+//   firebaseSignUp() async {
+//     await authService.signUpWithEmailAndPassword(
+//         email.text,
+//         password.text).then((result){
+//       if(result != null){
+//
+//         Map<String,String> userDataMap = {
+//           "userName" : fullName.text,
+//           "userEmail" : email.text
+//         };
+//
+//        // databaseMethods.addUserInfo(userDataMap);
+//
+//   }
+// });
+//         }
+//   firebaseLogin(context,username,pass) async {
+//     print("knreknlkn}");
+//     await authService.signInWithEmailAndPassword(
+//         username,
+//         pass).then((result){
+// print("knreknlkn${result}");
+//       // if(result != null){
+//       //
+//       //  SharedPref().setString(key: "firebaseId",value: result.)
+//       //
+//       // }
+//     });
+//   }
   Future<bool>postPhoneNumberApi({String?mobile,BuildContext ?context})async{
     var url=("https://webtechworlds.com/himrishtey/apis/user/forget_password");
 isLoading=true;

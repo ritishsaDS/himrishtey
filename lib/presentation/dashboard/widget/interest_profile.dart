@@ -43,14 +43,14 @@ int ?index;
              !data.photo!.contains("member-photo")?ClipRRect(
                  borderRadius: BorderRadius.circular(8.0),
                  child: Image.network(
-                   data.photo!.toString().replaceAll("file:///","")??"",
+                   data.photo!.toString().replaceAll("file:///",""),
                    fit: BoxFit.fitHeight,
                    height:  MediaQuery.of(context).size.height * 0.12,
                    width: MediaQuery.of(context).size.height * 0.12,
                  )): ClipRRect(
                 borderRadius: BorderRadius.circular(8.0),
                 child: Image.network(
-                  "https://webtechworlds.com/himrishtey/photos/photo/"+data.photo!.toString().replaceAll("file:///","")??"",
+                  "https://webtechworlds.com/himrishtey/photos/photo/"+data.photo!.toString().replaceAll("file:///",""),
                   fit: BoxFit.fitHeight,
                   height:  MediaQuery.of(context).size.height * 0.16,
                   width: MediaQuery.of(context).size.height * 0.12,

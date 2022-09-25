@@ -138,9 +138,7 @@ class _GalleryState extends State<Gallery> {
                                 "https://webtechworlds.com/himrishtey/photos/photo/" +
                                         (controller.getProfileModel?.data?.user
                                                 ?.photo ??
-                                            "") ??
-                                    'https://thumbs.dreamstime.com/b/handsome-male-model-posing-elegant-smile-88528667.jpg',
-                                fit: BoxFit.fill,
+                                            "") , fit: BoxFit.fill,
                               )),
                         );
                       }),

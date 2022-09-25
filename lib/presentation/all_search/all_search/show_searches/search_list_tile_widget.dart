@@ -33,7 +33,7 @@ class SearchList extends StatelessWidget {
               !data.photo!.contains("member-photo")?ClipRRect(
                   borderRadius: BorderRadius.circular(8.0),
                   child: Image.network(
-                    data.photo!.toString().replaceAll("file:///","")??"",
+                    data.photo!.toString().replaceAll("file:///",""),
                     fit: BoxFit.fitHeight,
                     height:  MediaQuery.of(context).size.height * 0.12,
                     width: MediaQuery.of(context).size.height * 0.15,

@@ -1,4 +1,4 @@
-import 'package:firebase_auth/firebase_auth.dart';
+//import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:provider/provider.dart';
@@ -42,7 +42,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _currentIndex = 0;
-  AuthService authService=AuthService();
+  //AuthService authService=AuthService();
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
   RatingController?ratingController;
   GetProfileController?getProfileController;
@@ -281,7 +281,7 @@ const ListTile(title: Text("My Contact",style: TextStyle(color: Colors.black,fon
 
               ListTile(
                 onTap: () async {
-                  authService.signOut();
+                  //authService.signOut();
                   SharedPreferences prefs=await SharedPreferences.getInstance();
                   prefs.clear();
                   Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>LoginPage2()));
@@ -477,7 +477,7 @@ onTap: (){
       ),
       Container(
         alignment: Alignment.center,
-        child:Search()
+        child:Container()
       ),
       Container(
         alignment: Alignment.center,
