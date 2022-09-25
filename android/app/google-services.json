@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "623038213165",
+    "project_id": "rishtey-69a89",
+    "storage_bucket": "rishtey-69a89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623038213165:android:b03b165f6fa21fb7dadca4",
+        "android_client_info": {
+          "package_name": "com.example.rishtey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623038213165-d4p225bg8k8ged36drj6ocf75lfcsv76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishtey",
+            "certificate_hash": "03dcdaae233e806f6d9a5437eb17137f75dde84b"
+          }
+        },
+        {
+          "client_id": "623038213165-3mjjk911h6gmv8dehabhauksjdaevg4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3TVugxTCsS7SDFk91Qz2GBaAKjqYosyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623038213165-3mjjk911h6gmv8dehabhauksjdaevg4g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "623038213165-5m9mv2ku8bj2qqaqbftojlpjv166k8ng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rishtey"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623038213165:android:a76cb01f31521360dadca4",
+        "android_client_info": {
+          "package_name": "com.him.rishtey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623038213165-3mjjk911h6gmv8dehabhauksjdaevg4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3TVugxTCsS7SDFk91Qz2GBaAKjqYosyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623038213165-3mjjk911h6gmv8dehabhauksjdaevg4g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "623038213165-5m9mv2ku8bj2qqaqbftojlpjv166k8ng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rishtey"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>623038213165-r033da0cls2s9avje41hfaliu4mkf1ad.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.623038213165-r033da0cls2s9avje41hfaliu4mkf1ad</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>623038213165-d4p225bg8k8ged36drj6ocf75lfcsv76.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDio3bWpnXIXnjcUHU-muElcrP8p2pNu7o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>623038213165</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.him.rishtey</string>
+	<key>PROJECT_ID</key>
+	<string>rishtey-69a89</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rishtey-69a89.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:623038213165:ios:77ab0d0f8efabb34dadca4</string>
+</dict>
+</plist>
